@@ -1,8 +1,11 @@
 import React from 'react';
 import './App.css';
+import MuiAccordion from './Components/MuiAccordion';
 import MuiButton from './Components/MuiButton';
+import MuiCard from './Components/MuiCard';
 import MuiCheckbox from './Components/MuiCheckbox';
 import MuiLayout from './Components/MuiLayout';
+import MuiNavbar from './Components/MuiNavbar';
 import MuiRadioButton from './Components/MuiRadioButton';
 import MuiRating from './Components/MuiRating';
 import MuiSelect from './Components/MuiSelect';
@@ -13,7 +16,7 @@ import MuiTypography from './Components/MuiTypography';
 function App() {
   return (
     <div className="App">
-      <MuiLayout />
+<MuiNavbar />
     </div>
   );
 }
