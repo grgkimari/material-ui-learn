@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import BreadCrumbComponent from './Components/BreadCrumbComponent';
 import MuiAccordion from './Components/MuiAccordion';
 import MuiButton from './Components/MuiButton';
 import MuiCard from './Components/MuiCard';
@@ -16,7 +17,7 @@ import MuiTypography from './Components/MuiTypography';
 function App() {
   return (
     <div className="App">
-<MuiNavbar />
+<BreadCrumbComponent />
     </div>
   );
 }
