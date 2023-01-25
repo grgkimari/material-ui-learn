@@ -9,6 +9,7 @@ import MuiBottomNavigation from './Components/MuiBottomNavigation';
 import MuiButton from './Components/MuiButton';
 import MuiCard from './Components/MuiCard';
 import MuiCheckbox from './Components/MuiCheckbox';
+import MuiChip from './Components/MuiChip';
 import MuiDrawer from './Components/MuiDrawer';
 import MuiLayout from './Components/MuiLayout';
 import MuiList from './Components/MuiList';
@@ -20,6 +21,7 @@ import MuiSpeedDial from './Components/MuiSpeedDial';
 import MuiSwitch from './Components/MuiSwitch';
 import MuiTextField from './Components/MuiTextField';
 import MuiTypography from './Components/MuiTypography';
+import MuiToolTip from './MuiToolTip';
 
 function App() {
   return (
@@ -32,7 +34,9 @@ function App() {
 </Box>
 <MuiSpeedDial />
 <MuiBottomNavigation /> */}
-<MuiList />
+{/* <MuiList />
+<MuiChip /> */}
+<MuiToolTip />
     </div>
   );
 }
