@@ -3,6 +3,7 @@ import React from 'react';
 import './App.css';
 import BreadCrumbComponent from './Components/BreadCrumbComponent';
 import MuiAccordion from './Components/MuiAccordion';
+import MuiAlert from './Components/MuiAlert';
 import MuiAvatar from './Components/MuiAvatar';
 import MuiBadge from './Components/MuiBadge';
 import MuiBottomNavigation from './Components/MuiBottomNavigation';
@@ -19,6 +20,7 @@ import MuiRating from './Components/MuiRating';
 import MuiSelect from './Components/MuiSelect';
 import MuiSpeedDial from './Components/MuiSpeedDial';
 import MuiSwitch from './Components/MuiSwitch';
+import MuiTable from './Components/MuiTable';
 import MuiTextField from './Components/MuiTextField';
 import MuiTypography from './Components/MuiTypography';
 import MuiToolTip from './MuiToolTip';
@@ -36,7 +38,9 @@ function App() {
 <MuiBottomNavigation /> */}
 {/* <MuiList />
 <MuiChip /> */}
-<MuiToolTip />
+{/* <MuiToolTip />
+<MuiTable /> */}
+<MuiAlert />
     </div>
   );
 }
