@@ -11,6 +11,7 @@ import MuiButton from './Components/MuiButton';
 import MuiCard from './Components/MuiCard';
 import MuiCheckbox from './Components/MuiCheckbox';
 import MuiChip from './Components/MuiChip';
+import MuiDialogComponent from './Components/MuiDialogComponent';
 import MuiDrawer from './Components/MuiDrawer';
 import MuiLayout from './Components/MuiLayout';
 import MuiList from './Components/MuiList';
@@ -29,7 +30,7 @@ import MuiToolTip from './MuiToolTip';
 function App() {
   return (
     <div className="App">
-      <MuiSnackBar />
+      <MuiDialogComponent />
     </div>
   );
 }
