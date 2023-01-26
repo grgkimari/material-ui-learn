@@ -18,6 +18,7 @@ import MuiNavbar from './Components/MuiNavbar';
 import MuiRadioButton from './Components/MuiRadioButton';
 import MuiRating from './Components/MuiRating';
 import MuiSelect from './Components/MuiSelect';
+import MuiSnackBar from './Components/MuiSnackBar';
 import MuiSpeedDial from './Components/MuiSpeedDial';
 import MuiSwitch from './Components/MuiSwitch';
 import MuiTable from './Components/MuiTable';
@@ -28,19 +29,7 @@ import MuiToolTip from './MuiToolTip';
 function App() {
   return (
     <div className="App">
-{/* <BreadCrumbComponent /> */}
-{/* <MuiDrawer />
-<MuiAvatar />
-<Box width="250px">
-  <MuiBadge />
-</Box>
-<MuiSpeedDial />
-<MuiBottomNavigation /> */}
-{/* <MuiList />
-<MuiChip /> */}
-{/* <MuiToolTip />
-<MuiTable /> */}
-<MuiAlert />
+      <MuiSnackBar />
     </div>
   );
 }
