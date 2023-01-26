@@ -16,6 +16,7 @@ import MuiDrawer from './Components/MuiDrawer';
 import MuiLayout from './Components/MuiLayout';
 import MuiList from './Components/MuiList';
 import MuiNavbar from './Components/MuiNavbar';
+import MuiProgress from './Components/MuiProgress';
 import MuiRadioButton from './Components/MuiRadioButton';
 import MuiRating from './Components/MuiRating';
 import MuiSelect from './Components/MuiSelect';
@@ -30,7 +31,7 @@ import MuiToolTip from './MuiToolTip';
 function App() {
   return (
     <div className="App">
-      <MuiDialogComponent />
+      <MuiProgress />
     </div>
   );
 }
