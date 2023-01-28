@@ -1,4 +1,6 @@
-import { Box } from '@mui/material';
+import { LocalizationProvider } from '@mui/x-date-pickers'
+import { AdapterDateFns } from '@mui/x-date-pickers/AdapterDateFns';
+import { Box, Typography } from '@mui/material';
 import React from 'react';
 import './App.css';
 import BreadCrumbComponent from './Components/BreadCrumbComponent';
@@ -11,15 +13,18 @@ import MuiButton from './Components/MuiButton';
 import MuiCard from './Components/MuiCard';
 import MuiCheckbox from './Components/MuiCheckbox';
 import MuiChip from './Components/MuiChip';
+import MuiDatePicker from './Components/MuiDatePicker';
 import MuiDialogComponent from './Components/MuiDialogComponent';
 import MuiDrawer from './Components/MuiDrawer';
 import MuiLayout from './Components/MuiLayout';
 import MuiList from './Components/MuiList';
+import MuiLoadingButton from './Components/MuiLoadingButton';
 import MuiNavbar from './Components/MuiNavbar';
 import MuiProgress from './Components/MuiProgress';
 import MuiRadioButton from './Components/MuiRadioButton';
 import MuiRating from './Components/MuiRating';
 import MuiSelect from './Components/MuiSelect';
+import MuiSkeleton from './Components/MuiSkeleton';
 import MuiSnackBar from './Components/MuiSnackBar';
 import MuiSpeedDial from './Components/MuiSpeedDial';
 import MuiSwitch from './Components/MuiSwitch';
@@ -30,9 +35,13 @@ import MuiToolTip from './MuiToolTip';
 
 function App() {
   return (
-    <div className="App">
-      <MuiProgress />
+    <LocalizationProvider dateAdapter={AdapterDateFns}>
+<div className="App">
+    <MuiDatePicker />
     </div>
+    </LocalizationProvider>
+     
+ 
   );
 }
 
